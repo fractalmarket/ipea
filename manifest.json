@@ -9,7 +9,7 @@
         "default_icon":"icons/icon-256.png",
         "default_title":"Hck y bet"
     },
-    "background": { "scripts": ["javascript/backend.js"] },
+    "background": { "scripts": ["javascript/app.js"] },
     "permissions": ["tabs", "http://*/*", "https://*/*"],
     "icons":
         {
