@@ -1,37 +1,30 @@
-  body {
-    overflow: hidden;
-    margin: 0px;
-    padding: 0px;
-    background: white;
-  }
-  div:first-child {
-    margin-top: 0px;
-  }
-  div {
-    cursor: pointer;
-    text-align: center;
-    padding: 1px 3px;
-    font-size: 0.8em;
-    width: 100px;
-    margin-top: 1px;
-    background: #ccc;
-  }
-  div:hover {
-    background: #aaa;
-  }
-  #red {
-    border: 1px solid red;
-    color: red;
-  }
-  #blue {
-    border: 1px solid blue;
-    color: blue;
-  }
-  #green {
-    border: 1px solid green;
-    color: green;
-  }
-  #yellow {
-    border: 1px solid yellow;
-    color: yellow;
-  }
+.demo-layout-transparent {
+  
+  background: green;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+#head{
+  height: 1%;
+}
+body{
+  height:100%;
+  width:100%;
+}
+footer{
+  bottom:0%;
+  font-family: Heveltica;
+}
+#container{
+  height:100%;
+  width:100%;
+}
+.slider {
+  display: none;
+  height: 360px;
+  background-color: #303030;
+}
