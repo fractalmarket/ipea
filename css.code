@@ -1,0 +1,32 @@
+<td class="cell_ad time" title="Clique para detalhes do jogo!">
+  <input style="
+    right: 50%;
+    position: relative;
+    float: left;
+    " type="checkbox" id="chkk">
+  
+  <div style="
+    top:30%;
+    right: 94.5%;
+    position: absolute;
+    float: center;
+    ;
+    ">15:30</div></td>
+	
+	
+document.getElementById("g_1_0nqhI98F").onclick = function(e){
+    
+		console.log(e.target.className)
+	}
+	
+<span class="icons right" title=""><span class="tomyga icon0" title="Retirar de Meus Jogos!"></span></span>
+
+document.getElementById("g_1_0nqhI98F").onclick = function(e){
+    
+		var status = e.target.getElementsByClassName("tomyga icon0");
+		
+		if status
+		{
+			console.log("works")
+		}
+	}
