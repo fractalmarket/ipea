@@ -16,15 +16,11 @@ body{
   width:100%;
 }
 footer{
-  bottom:0%;
-  font-family: Heveltica;
-}
-#container{
-  height:100%;
+  position:inherit;
+  bottom:0px;
   width:100%;
-}
-.slider {
-  display: none;
-  height: 360px;
-  background-color: #303030;
+  height:35%;
+  
+  font-family: Heveltica;
+  background-color:#E0E0E0;
 }
