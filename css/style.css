@@ -24,3 +24,17 @@ footer{
   font-family: Heveltica;
   background-color:#E0E0E0;
 }
+
+#phto{
+  width:auto;
+  height:auto;
+  max-width:100px;  
+  max-height:100px;
+}
+
+#pokePhoto{
+  width:auto;
+  height:auto;
+  max-width:150px;
+  max-height:150px;
+}
