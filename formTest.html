@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Learn Form</title>
+    
+  </head>
+  
+  <body>
+
+  <h1>Register</h1>
+  
+  <form>
+    
+    <div>
+      <label for="firstName">First Name:</label>
+      <input id="firstName" name="firstname" placeholder="Jonh" type="text" required>
+
+      <label for="lastName">Last Name:</label>
+      <input id="lastName" name="lastName" placeholder="Lima" type="text" required>
+    </div>
+    
+
+    <div>
+      <label for="male">Male:</label>
+      <input id="male" value="male" name="sex" type="radio" required>
+
+      <label for="female">Female:</label>
+      <input id="female" value="female" name="sex" type="radio" required>
+
+      <label for="other">Other:</label>
+      <input id="other" value="other" name="sex" type="radio" required>
+    </div>
+
+    
+    <div>
+      <label for="email">Email:</label>
+      <input id="email" name="email" placeholder="your@email.some"type="text" required>
+    
+      <label for="password">Password:</label>
+      <input id="password" name="password" type="password" pattern=".{5,10}" required>
+    </div>
+    
+    <div>
+      <label for="birthday">Birthday:</label>
+      <span id="birthday" >
+        <select name="b-day" required>
+          
+        </select>
+        <select name="b-month" required>
+          
+        </select>
+        <select name="b-year" required>
+        
+        </select>
+      </span>
+    </div>
+    
+    <div>
+      <label for="agreement"> I agree with terms conditions</label>
+      <input id="agreement" type="checkbox" required>
+    </div>
+    
+    <button>Submit</button>
+    
+  </form>
+
+  </body>
+  
+
+
+</html>
