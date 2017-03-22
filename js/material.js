@@ -3451,9 +3451,14 @@ MaterialLayout.prototype.init = function () {
                 drawerButton.setAttribute('aria-expanded', 'false');
                 drawerButton.setAttribute('role', 'button');
                 drawerButton.setAttribute('tabindex', '0');
+								drawerButton.classList.add(this.CssClasses_.DRAWER_BTN)
                 drawerButton.classList.add(this.CssClasses_.DRAWER_BTN);
+                drawerButton.classList.add("fixed-me");
+                drawerButton.classList.add("padding-top");
                 var drawerButtonIcon = document.createElement('i');
                 drawerButtonIcon.classList.add(this.CssClasses_.ICON);
+                drawerButtonIcon.classList.add("fixed-me");
+                drawerButtonIcon.classList.add("padding-top");
                 drawerButtonIcon.innerHTML = this.Constant_.MENU_ICON;
                 drawerButton.appendChild(drawerButtonIcon);
             }
@@ -3484,6 +3489,7 @@ MaterialLayout.prototype.init = function () {
             this.obfuscator_ = obfuscator;
             this.drawer_.addEventListener('keydown', this.keyboardEventHandler_.bind(this));
             this.drawer_.setAttribute('aria-hidden', 'true');
+						obfuscator.classList.add("fixed-me");
         }
         // Keep an eye on screen size, and add/remove auxiliary class for styling
         // of small screens.
