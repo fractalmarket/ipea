@@ -274,12 +274,22 @@ p {
 
 /* Smartphones (landscape) ———– */
 
+@media and (orientation: portrait) {
+    .padding-top2 {
+        padding-top: 65% !important;
+    }
+    /* Styles */
+}
+
+/* Smartphones (landscape) ———– */
+
 @media only screen and (min-width: 321px) and (orientation: portrait) {
     .padding-top2 {
         padding-top: 65% !important;
     }
     /* Styles */
 }
+
 
 
 /* iPads (portrait and landscape) ———– */
