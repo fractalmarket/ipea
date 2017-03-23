@@ -20,15 +20,6 @@
 
 /* Tags */
 
-head {
-    height: 1%;
-}
-
-body {
-    height: 100%;
-    background: white;
-}
-
 footer {
     background: var(--plumbeum);
     bottom: 0px;
@@ -253,6 +244,7 @@ p {
     width: 100%;
     background: linear-gradient(0deg, var(--cash_lives), var(--cash)) !important;
 }
+
 
 .content {
     padding-top: 100vh;
