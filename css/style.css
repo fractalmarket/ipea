@@ -42,6 +42,7 @@ h3,
 h4,
 h5,
 h6 {
+
     color: var(--plumbeum);
 }
 
@@ -49,15 +50,18 @@ h1 {
     color: var(--gray_light);
     margin-top: 0 !importante;
     margin-bottom: 0 !importante;
+    font-weight: 200 !important;
 }
 
 h4 {
-    color: var(--cash);
+    color: var(--plumbeum);
+    height: 0 auto;
     margin-top: 0 !importante;
     margin-bottom: 0 !importante;
 }
 
 h5{
+    font-weight: 100 !important;
     color: white;
 }
 
@@ -89,6 +93,11 @@ li {
     max-height: 128px;
     margin: 0 auto;
 }
+
+.img-circle {
+    border-radius: 50%;
+}
+
 
 .center-me {
     text-align: center;
@@ -156,37 +165,59 @@ li {
     font-family: "BankGothic Lt BT" !important;
 }
 
-.developers {
-    padding-bottom: 2.5%;
-    background: var(--gray_light);
+.overlay {
+    background: rgba(37, 56, 64,0.6);
 }
 
-.developers h4 {
-    padding-left: 5%;
+.special-presentation{
+    background-repeat: no-repeat;
+    background-position: center center !important;
+    background-size: cover !important;
+    padding-bottom: 0px !important;
+    color:whitesmoke;
+}
+
+.special-presentation h4{
+    color: white;
+}
+
+.special-presentation td{
+    font-size: 48
+    height: 60vh;
+}
+
+.presentation {
+    padding-bottom: 2.5%;
+
+}
+
+.presentation h4 {
+    padding-right: 5vh;
+    text-align: right;
 }
 
 p {
     text-align: center;
 }
 
-.developers table {
+.presentation table {
     margin: 0 auto;
 }
 
-.developers table h4 {
+.presentation table h4 {
     margin-left: -200% !important;
 }
 
-.developers table td {
+.presentation table td {
     padding-left: 100px;
     padding-right: 100px;
     margin: 0 auto;
 }
 
 .divisor {
-    height: .3vh;
+    height: .5vh;
     width: 100%;
-    background: var(--cash);
+    background:  var(--gray_light);
 }
 
 .fixed_nav {
@@ -254,6 +285,14 @@ p {
 .content .out {
     width: 20vw;
     text-align: left;
+}
+
+#market{
+    background-image: url("https://tinypng.com/site/output/pdl0juereh72aujf.jpg/futebol-bola-wallpaper_f42dd.jpg");
+}
+
+#developers{
+    background-image: url(/resources/code.jpg);
 }
 
 
