@@ -276,7 +276,7 @@ p {
 
 @media only screen and (min-width: 321px) and (orientation: portrait) {
     .padding-top2 {
-        padding-top: 50% !important;
+        padding-top: 65% !important;
     }
     /* Styles */
 }
