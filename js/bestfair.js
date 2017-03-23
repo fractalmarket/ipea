@@ -1,3 +1,13 @@
+//typed
+document.addEventListener('DOMContentLoaded', function(){
+      Typed.new('.typed', {
+        strings: ["Best Fair","odds its upping", "goaaaaaaaaal!!!!",],
+        typeSpeed: 100,
+        backDelay: 500
+      });
+  });
+
+
 function openIndex() {
 
     var newURL = "index.html";

@@ -244,7 +244,12 @@ p{	text-align: center;}
 
 }
 
-
+.animated {
+    -webkit-animation-duration: 11s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
 
 
 
