@@ -80,6 +80,11 @@ li{
 	margin: 0 auto;
 }
 
+.center-me-v{
+    margin-bottom:50%;
+    position:absolute;
+}
+
 .fixed-me{
 	position: fixed !important;
 }
@@ -93,7 +98,7 @@ li{
 }
 
 .padding-top2{
-	padding-top: 10% !important;
+	padding-top: 30% !important;
 }
 
 .ocupation{
@@ -243,14 +248,6 @@ p{	text-align: center;}
 	text-align: left;
 
 }
-
-.animated {
-    -webkit-animation-duration: 11s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-
 
 
 /* Ids */

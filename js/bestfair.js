@@ -1,7 +1,11 @@
 //typed
 document.addEventListener('DOMContentLoaded', function(){
       Typed.new('.typed', {
-        strings: ["Best Fair","odds its upping", "goaaaaaaaaal!!!!",],
+        strings: ["Best Fair",
+                  "odds its upping",
+                  "goaaaaaaaaal!!!!",
+                  "improve your's asserts",
+                 ],
         typeSpeed: 100,
         backDelay: 500
       });
