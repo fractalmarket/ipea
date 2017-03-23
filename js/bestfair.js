@@ -1,27 +1,29 @@
 //typed
-document.addEventListener('DOMContentLoaded', function(){
-      Typed.new('.typed', {
+document.addEventListener('DOMContentLoaded', function () {
+    Typed.new('.typed', {
         strings: ["Best Fair",
-                  "odds its upping",
+                 "odds its upping",
                   "goaaaaaaaaal!!!!",
-                  "improve your's asserts",
-                 ],
+                  "improve your asserts",],
         typeSpeed: 100,
-        backDelay: 500
-      });
-  });
+        loop: true,
+        backDelay: 500,
+    });
+});
 
 
 function openIndex() {
 
     var newURL = "index.html";
-    chrome.tabs.create({ url: newURL });
+    chrome.tabs.create({
+        url: newURL
+    });
 
 
 }
 
 chrome.browserAction.onClicked.addListener(openIndex);
 
-$('flip').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-  alert( "This will be displayed only once." );
+$('flip').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+    alert("This will be displayed only once.");
 });

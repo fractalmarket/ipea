@@ -47,11 +47,18 @@ h6 {
 
 h1 {
     color: var(--gray_light);
+    margin-top: 0 !importante;
+    margin-bottom: 0 !importante;
 }
 
 h4 {
-    margin: 5px;
     color: var(--cash);
+    margin-top: 0 !importante;
+    margin-bottom: 0 !importante;
+}
+
+h5{
+    color: white;
 }
 
 ul {
