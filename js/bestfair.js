@@ -2,9 +2,9 @@
 document.addEventListener('DOMContentLoaded', function () {
     Typed.new('.typed', {
         strings: ["Best Fair",
-                 "odds its upping",
+                 "odds its going up",
                   "goaaaaaaaaal!!!!",
-                  "improve your asserts",],
+                  "improve your assets",],
         typeSpeed: 100,
         loop: true,
         backDelay: 500,

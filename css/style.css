@@ -24,8 +24,12 @@ footer {
     background: var(--plumbeum);
     bottom: 0px;
     width: 100%;
-    height: 100vh;
-    padding-bottom: 2vh;
+    height: 15vh;
+}
+
+img{
+    display: block;
+    margin: auto;
 }
 
 h1,
@@ -189,12 +193,15 @@ li {
     font-weight: 500 !important;
 }
 
-
-
 .special-presentation td{
-    font-size: 48;
-    padding-left: 8vh;
-    padding-right: 8vh;
+    font-size: 14px !important;
+    font-weight: 100;
+    box-sizing: border-box;
+    width: 30%;
+}
+
+.bets{
+
 }
 
 .presentation {
@@ -219,8 +226,8 @@ p {
 }
 
 .presentation table td {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 5vw;
+    padding-right: 5vw;
     margin: 0 auto;
 }
 
