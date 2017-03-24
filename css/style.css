@@ -27,7 +27,7 @@ footer {
     height: 15vh;
 }
 
-a{
+td a{
     text-decoration: inherit;
     color: white !important;
 }
