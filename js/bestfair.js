@@ -6,11 +6,18 @@ document.addEventListener('DOMContentLoaded', function () {
                   "goaaaaaaaaal!!!!",
                   "improve your assets",],
         typeSpeed: 100,
-        loop: true,
         backDelay: 500,
     });
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    Typed.new('.purposed', {
+        strings: ["BETDAQ is the second largest betting exchange operator with approximately 7% market share.BETDAQ is the second largest betting exchange operator with approximately 7% market share.BETDAQ is the second largest betting exchange operator with approximately 7% market share.BETDAQ is the second largest betting exchange operator with approximately 7% market share.BETDAQ is the second largest betting exchange operator with approximately 7% market share.BETDAQ is the second largest betting exchange operator with approximately 7% market share.BETDAQ is the second largest betting exchange operator with approximately 7% market share.BETDAQ is the second largest betting exchange operator with approximately 7% market share."],
+        typeSpeed: 0,
+        loop: false,
+        backDelay: 50,
+    });
+});
 
 function openIndex() {
 
