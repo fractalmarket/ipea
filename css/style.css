@@ -111,6 +111,10 @@ table {
 
 /* Class */
 
+form .mdl-textfield__label {
+  color: var(--plumbeum);
+}
+
 .bar {
   display: inline-block;
   -webkit-box-sizing: content-box;
@@ -137,7 +141,7 @@ table {
 .bar spam {
   color: var(--plumbeum);
   line-height: 1.5em;
-  width: 46vw;
+  width: calc(50vw - 2*(1.2em));
 }
 
 .logo i {
@@ -147,6 +151,7 @@ table {
 
 .logo.mdl-card {
   background: transparent;
+  margin: auto;
 }
 
 .icon-24 {
