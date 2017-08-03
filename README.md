@@ -9,10 +9,10 @@
   
  <p align="justify" >A escolha da cor foi baseada após pesquisa sobre a sensação que a cor pode provocar ou intensificar. A cor vermelha como principal por ser uma cor quente que induz um estado de alerta é o que buscamos já que o propósito é o aplicativo seja utilizado em no momento do exercício físico.
  
- <h2>API</h2>
+ <h2>API:</h2>
  
  <p align="justify" >Uso de orientação a objeto, adotando sempre que possível os padrões de projeto descrito pelo Gang of Four. Adotando também a metodologia de desenvolvimento dirigido por testes e o uso de interfaces para diminuir ao máximo o acoplamento  entre as classes utilizadas. Seguindo os padrões de um código coerente e coeso.
  
- <h2>Fork us</h2>
+ <h2>Fork us:</h2>
  
  <p align="justify" >Uso de orientação a objeto, adotando sempre que possível os padrões de projeto descrito pelo Gang of Four. Adotando também a metodologia de desenvolvimento dirigido por testes e o uso de interfaces para diminuir ao máximo o acoplamento  entre as classes utilizadas. Seguindo os padrões de um código coerente e coeso.
