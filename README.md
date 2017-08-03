@@ -3,7 +3,7 @@
  Por: Julio Lima<br>
  Início: 02/08/2017</b>
  
- <h1>A proposta do site:</h1>
+ <h2>A proposta do site:</h2>
  
  <p align="justify" >A proposta do aplicativo é gerenciar o treino dos praticantes de atividades fisicas de iniciantes a avançados, proporcionando um ambiente gamificado para que se estimule o ganho de massa muscular e/ou perda de gordura. Também substituindo a ficha clássica de papel adotada por maioria das academias de modo que facilite o acesso já que notavelmente foi adotado o uso de smartphones durante o treino por grande parte dos praticantes da musculação. Podendo ser adotado por academias (como possíveis clientes afim de rentabilizar a concepção do aplicativo criando assim um aplicativo genérico que poderá se adaptar conforme as necessidades de academias clientes) e uma versão a ser lançada a usuário comum.</p>
   
