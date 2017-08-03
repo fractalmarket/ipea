@@ -13,6 +13,6 @@
  
  <p align="justify" >Uso de orientação a objeto, adotando sempre que possível os padrões de projeto descrito pelo Gang of Four. Adotando também a metodologia de desenvolvimento dirigido por testes e o uso de interfaces para diminuir ao máximo o acoplamento  entre as classes utilizadas. Seguindo os padrões de um código coerente e coeso.
  
- <h2>Fork us:</h2>
+ <h2>Fork us</h2>
  
  <p align="justify" >Uso de orientação a objeto, adotando sempre que possível os padrões de projeto descrito pelo Gang of Four. Adotando também a metodologia de desenvolvimento dirigido por testes e o uso de interfaces para diminuir ao máximo o acoplamento  entre as classes utilizadas. Seguindo os padrões de um código coerente e coeso.
