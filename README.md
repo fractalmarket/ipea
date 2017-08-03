@@ -1,4 +1,4 @@
-# Acesso Alternativo ao Banco de Dados IPEA
+# Acesso alternativo ao banco de dados IPEA
  <b>Documentação de projeto para o acesso facilitado ao banco de dados da plataforma do governo brasileiro IPEA.<br>
  Por: Julio Lima<br>
  Início: 02/08/2017</b>
