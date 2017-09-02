@@ -17,12 +17,30 @@ if (document.readyState) {
   document.addEventListener("DOMContentLoaded", saydone, false);
 }
 
-function checkstate() {
-  if (document.readyState == "complete" || document.readyState == "complete") {
-    document.getElementById("page").style.display = "flex";
-  }
-}
+body.onload = function () {
+  document.getElementsByTagName('body').style.display = 'none';
+};
 
-function saydone() {
-  document.getElementById("page").style.display = "flex";
+window.onload = function () {
+  document.getElementsByTagName('body').style.display = 'block';
+};
+
+var src = [url, '?', queryStr, 'callback=', nomeDaCallback].join('');
+var script = document.createElement('script');
+script.src = src;
+script.onload = function (e) {
+  callback(resposta, true, e);
+}
+script.onerror = function (e) {
+  callback(resposta, false, e);
+}
+document.body.appendChild(script);
+
+window.onload = executeMan();
+
+function executeMan() {
+  var script = parent.frames[0].createElement('script');
+  script.setAttribute('type', 'text/javascript');
+  script.src = 'js/search.js';
+  parent.frames[0].body.appendChild(script);
 }

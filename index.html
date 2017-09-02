@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
   <script src="js/material.js"></script>
+  <script type="text/javascript" src="js/porthole.min.js"></script>
   <script src="js/typed.js"></script>
   <script src="js/bestfair.js"></script>
 
@@ -31,7 +32,7 @@
 
 <body>
   <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header mdl-layout__header--transparent">
+    <header class="mdl-layout__header mdl-layout__header--transparent" id="page">
       <div class="mdl-layout__header-row  padding-right padding-top animated slideInDown">
         <!-- Title -->
         <span class="mdl-layout-title"></span>
@@ -70,6 +71,13 @@
           </div>
         </h5>
       </div>
+
+      <content>
+        <div>
+          <iframe src="http://app.nailsup.com.br" id="frame" width="800px" height="500px"></iframe>
+        </div>
+
+      </content>
 
       <footer>
         <div class="enterprise alignment-1-l">

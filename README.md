@@ -6,8 +6,8 @@
  <h2>A proposta do site:</h2>
  
  <p align="justify" >A proposta do site é ser uma alternativa a requisições feitas de modo diferenciado ao banco de dados IPEA. Boa parte do desenvolvimento acadêmico é feito em cima de plataformas como o MATLAB ou em plataformas mais progressivas como o Java ou o moderno Javascript.
- <br><br>No intuito de facilitar a obtenção desses dados, com querys via URL, é universalizar todas as solicitações, que antes aconteciam por meio da chamada de funções por meios físicos. Agora também se poderá tratar o dado ao modo que se deseja, passando apenas o modelo do formato como informação, economizando desenvolvimento em tratamento de interface de dados.
- <br><br>O aprimoramento do design do site, proporciona uma agradavel experiência ao usuário com cores flat e simplicidade nas ações.</p>
+ <br><br>No intuito de facilitar a obtenção desses dados, com querys via URL e universalizar todas as solicitações, que antes aconteciam por meio da chamada de funções por meios físicos. Agora também se poderá tratar o dado ao modo que se deseja, passando apenas o modelo do formato como informação, economizando desenvolvimento em tratamento de interface de dados.
+ <br><br>O aprimoramento do design do site, proporciona uma agradavel experiência ao usuário com a paleta em cores flat e simplicidade nas ações.</p>
 
  <h2>API:</h2>
  
